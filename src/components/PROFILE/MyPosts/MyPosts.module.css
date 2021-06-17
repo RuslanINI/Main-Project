@@ -1,0 +1,23 @@
+.button {
+  border: none;
+  border-radius: 2px;
+  margin: 2px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: #fff8dc;
+  color: dimgrey;
+  margin-left: 15px;
+}
+textarea {
+  border: none;
+  border-radius: 5px;
+  margin: 2px;
+  margin-left: 15px;
+  display: block;
+  width: 250px;
+  background-color: rgba(219, 242, 255, 0.781);
+}
+.grid {
+  display: inline-grid;
+  grid-template-columns: 1fr;
+}

@@ -1,0 +1,52 @@
+.body {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+}
+.itemDialogs {
+  height: 100%;
+  padding: 5px;
+  /* border-right: rgba(245, 245, 220, 0.274) 1px solid; */
+}
+.blocks {
+  margin: 20px;
+}
+.item a {
+  color: #1e8fffbe;
+  text-decoration: none;
+}
+.item a.active {
+  color: #fdf5e6bb;
+}
+.messageBackGround {
+  background-color: #e0ebf1e7;
+  height: 100%;
+  width: auto;
+  border-radius: 10px;
+  margin: 10px;
+}
+.messageItems {
+  padding: 5px;
+  padding-left: 80px;
+}
+.message {
+  margin: 20px;
+}
+.input {
+  border: none;
+  border-radius: 5px;
+  margin: 20px;
+  display: flex;
+  width: 200px;
+  height: 22px;
+  background-color: rgba(180, 224, 252, 0.932);
+}
+.button {
+  display: flex;
+  border: none;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: #fff8dc;
+  color: dimgrey;
+  margin-left: 20px;
+}
